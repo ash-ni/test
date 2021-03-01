@@ -5,17 +5,20 @@
  */
 package testrun;
 
+import com.google.gson.Gson;
 /**
  *
  * @author ashni
  */
-public class TestRun {
+public class TestRun extends MyJFrame {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MyJFrame jf = new MyJFrame();
+        jf.setVisible(true); 
     }
     
 }
